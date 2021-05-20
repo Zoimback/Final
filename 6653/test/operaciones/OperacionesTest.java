@@ -100,7 +100,8 @@ public class OperacionesTest {
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
        
-    }  
+    } 
+    @Ignore
     @Test
     public void testIgual() {
         System.out.println("mayor");
@@ -118,14 +119,14 @@ public class OperacionesTest {
     /**
      * Test of sumarVector method, of class Operaciones.
      */
-    @Ignore
+   
     @Test
     public void testSumarVector() {
         System.out.println("sumarVector");
         Operaciones instance = new Operaciones();
-        int[] numeros = null;
+        int[] numeros = {1,2,3};
         
-        int expResult = 0;
+        int expResult = 6;
         int result = instance.sumarVector(numeros);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
