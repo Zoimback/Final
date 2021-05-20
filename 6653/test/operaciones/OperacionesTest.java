@@ -87,7 +87,7 @@ public class OperacionesTest {
         // TODO review the generated test code and remove the default call to fail.
        
     }
-      
+     @Ignore 
     @Test
     public void testMayorb() {
         System.out.println("mayor");
@@ -100,7 +100,7 @@ public class OperacionesTest {
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
        
-    }  @Ignore
+    }  
     @Test
     public void testIgual() {
         System.out.println("mayor");
