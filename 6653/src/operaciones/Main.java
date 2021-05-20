@@ -19,11 +19,11 @@ public class Main {
         Operaciones operaciones = new Operaciones();
         
         //prueba sumarPar:
-        int resultado = operaciones.sumarPar(4,4);    
+        int resultado = operaciones.sumarPar(5,5);    
         System.out.println(resultado);
         
         //prueba mayor:
-        int resultado2 = operaciones.mayor(8,8);    
+        int resultado2 = operaciones.mayor(7,8);    
         System.out.println(resultado2);
         
         //prueba sumarVector:
