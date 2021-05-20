@@ -41,7 +41,7 @@ public class OperacionesTest {
     /**
      * Test of sumarPar method, of class Operaciones.
      */
-    
+    @Ignore
     @Test
     public void testSumarPar() {
         System.out.println("sumarPar");
@@ -54,15 +54,16 @@ public class OperacionesTest {
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         
-    }@Ignore
+    }
+    
     @Test
     public void testSumarImPar() {
         System.out.println("sumarPar");
         Operaciones instance = new Operaciones();
-        int a = 0;
-        int b = 0;
+        int a = 1;
+        int b = 2;
         
-        int expResult = 0;
+        int expResult = 4;
         int result = instance.sumarPar(a, b);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
