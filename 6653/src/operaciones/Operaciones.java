@@ -25,7 +25,7 @@ public class Operaciones {
         int resultado = a + b;
         if (resultado % 2 == 0) {
             return resultado;//cambio la posicion del + 1;
-        } else {
+        } else { 
             return resultado + 1;
         }
     }
